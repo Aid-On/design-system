@@ -1,0 +1,190 @@
+/* Aid-On Design System - Color Tokens */
+
+/* Light Theme (default) */
+:root,
+:root[data-theme="light"] {
+  --surface: #6C4FEA; /* Blue */
+  --surface-elevated: #005FB9; /* Dark Blue */
+  --surface-hover: #1A1A1A; /* Black */
+  --surface-active: #ffffff; /* White */
+  --surface-disabled: #F6F6F6; /* Neutral Gray */
+  --content: #1A1A1A; /* Gray 900 */
+  --content-secondary: #333333; /* Gray 800 */
+  --content-tertiary: #666666; /* Gray 700 */
+  --content-quaternary: #999999; /* Gray 500 */
+  --content-disabled: #E0E0E0; /* Gray 300 */
+  --content-subtle: #F5F5F5; /* Gray 200 */
+  --content-ghost: #F7F7F7; /* Gray 100 */
+  --accent: #000000; /* Black 900 */
+  --accent-hover: #1A1A1A; /* Black 800 */
+  --accent-active: #2D2D2D; /* Black 750 */
+  --accent-muted: #333333; /* Black 700 */
+  --accent-subtle: #666666; /* Black 500 */
+  --accent-ghost: #B0B0B0; /* Black 300 */
+  --accent-disabled: #D9D9D9; /* Black 200 */
+  --accent-background: #F0F0F0; /* Black 100 */
+  --white-1: #CCCCCC; /* White 900 */
+  --white-2: #D5D5D5; /* White 800 */
+  --white-3: #E0E0E0; /* White 700 */
+  --white-4: #EEEEEE; /* White 500 */
+  --white-5: #F5F5F5; /* White 300 */
+  --white-6: #FAFAFA; /* White 200 */
+  --white-7: #FFFFFF; /* White 100 */
+  --red-1: #800000; /* Red 900 */
+  --red-2: #9C0000; /* Red 800 */
+  --red-3: #B70000; /* Red 700 */
+  --red-4: #ED0000; /* Red 500 */
+  --red-5: #FFB3B3; /* Red 300 */
+  --red-6: #FDD0D0; /* Red 200 */
+  --red-7: #FFEAEA; /* Red 100 */
+  --orange-1: #803300; /* Orange 900 */
+  --orange-2: #994000; /* Orange 800 */
+  --orange-3: #B34A00; /* Orange 700 */
+  --orange-4: #E66000; /* Orange 500 */
+  --orange-5: #FFC299; /* Orange 300 */
+  --orange-6: #FFDCC2; /* Orange 200 */
+  --orange-7: #FFF0E6; /* Orange 100 */
+  --green-1: #003D00; /* Green 900 */
+  --green-2: #004B00; /* Green 800 */
+  --green-3: #005900; /* Green 700 */
+  --green-4: #007500; /* Green 500 */
+  --green-5: #99D499; /* Green 300 */
+  --green-6: #C2E2C2; /* Green 200 */
+  --green-7: #E6F3E6; /* Green 100 */
+  --blue-1: #001A4D; /* Blue 900 */
+  --blue-2: #00245E; /* Blue 800 */
+  --blue-3: #002E6F; /* Blue 700 */
+  --blue-4: #003D91; /* Blue 500 */
+  --blue-5: #99C2FF; /* Blue 300 */
+  --blue-6: #C2DCFF; /* Blue 200 */
+  --blue-7: #E6F0FF; /* Blue 100 */
+}
+
+/* Dark Theme */
+:root[data-theme="dark"] {
+  --surface: #6C4FEA; /* Blue */
+  --surface-elevated: #005FB9; /* Dark Blue */
+  --surface-hover: #1A1A1A; /* Black */
+  --surface-active: #ffffff; /* White */
+  --surface-disabled: #F6F6F6; /* Neutral Gray */
+  --content: #F7F7F7; /* Gray 100 */
+  --content-secondary: #F5F5F5; /* Gray 200 */
+  --content-tertiary: #E0E0E0; /* Gray 300 */
+  --content-quaternary: #999999; /* Gray 500 */
+  --content-disabled: #666666; /* Gray 700 */
+  --content-subtle: #333333; /* Gray 800 */
+  --content-ghost: #1A1A1A; /* Gray 900 */
+  --accent: #FFFFFF; /* White */
+  --accent-hover: #F0F0F0; /* Black 100 */
+  --accent-active: #D9D9D9; /* Black 200 */
+  --accent-muted: #B0B0B0; /* Black 300 */
+  --accent-subtle: #666666; /* Black 500 */
+  --accent-ghost: #333333; /* Black 700 */
+  --accent-disabled: #2D2D2D; /* Black 750 */
+  --accent-background: #1A1A1A; /* Black 800 */
+  --white-1: #CCCCCC; /* White 900 */
+  --white-2: #D5D5D5; /* White 800 */
+  --white-3: #E0E0E0; /* White 700 */
+  --white-4: #EEEEEE; /* White 500 */
+  --white-5: #F5F5F5; /* White 300 */
+  --white-6: #FAFAFA; /* White 200 */
+  --white-7: #FFFFFF; /* White 100 */
+  --red-1: #800000; /* Red 900 */
+  --red-2: #9C0000; /* Red 800 */
+  --red-3: #B70000; /* Red 700 */
+  --red-4: #ED0000; /* Red 500 */
+  --red-5: #FFB3B3; /* Red 300 */
+  --red-6: #FDD0D0; /* Red 200 */
+  --red-7: #FFEAEA; /* Red 100 */
+  --orange-1: #803300; /* Orange 900 */
+  --orange-2: #994000; /* Orange 800 */
+  --orange-3: #B34A00; /* Orange 700 */
+  --orange-4: #E66000; /* Orange 500 */
+  --orange-5: #FFC299; /* Orange 300 */
+  --orange-6: #FFDCC2; /* Orange 200 */
+  --orange-7: #FFF0E6; /* Orange 100 */
+  --green-1: #003D00; /* Green 900 */
+  --green-2: #004B00; /* Green 800 */
+  --green-3: #005900; /* Green 700 */
+  --green-4: #007500; /* Green 500 */
+  --green-5: #99D499; /* Green 300 */
+  --green-6: #C2E2C2; /* Green 200 */
+  --green-7: #E6F3E6; /* Green 100 */
+  --blue-1: #001A4D; /* Blue 900 */
+  --blue-2: #00245E; /* Blue 800 */
+  --blue-3: #002E6F; /* Blue 700 */
+  --blue-4: #003D91; /* Blue 500 */
+  --blue-5: #99C2FF; /* Blue 300 */
+  --blue-6: #C2DCFF; /* Blue 200 */
+  --blue-7: #E6F0FF; /* Blue 100 */
+}
+
+/* Utility Classes */
+.theme-light {
+  color-scheme: light;
+}
+
+.theme-dark {
+  color-scheme: dark;
+}
+
+/* System Preference */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --surface: #6C4FEA;
+    --surface-elevated: #005FB9;
+    --surface-hover: #1A1A1A;
+    --surface-active: #ffffff;
+    --surface-disabled: #F6F6F6;
+    --content: #F7F7F7;
+    --content-secondary: #F5F5F5;
+    --content-tertiary: #E0E0E0;
+    --content-quaternary: #999999;
+    --content-disabled: #666666;
+    --content-subtle: #333333;
+    --content-ghost: #1A1A1A;
+    --accent: #FFFFFF;
+    --accent-hover: #F0F0F0;
+    --accent-active: #D9D9D9;
+    --accent-muted: #B0B0B0;
+    --accent-subtle: #666666;
+    --accent-ghost: #333333;
+    --accent-disabled: #2D2D2D;
+    --accent-background: #1A1A1A;
+    --white-1: #CCCCCC;
+    --white-2: #D5D5D5;
+    --white-3: #E0E0E0;
+    --white-4: #EEEEEE;
+    --white-5: #F5F5F5;
+    --white-6: #FAFAFA;
+    --white-7: #FFFFFF;
+    --red-1: #800000;
+    --red-2: #9C0000;
+    --red-3: #B70000;
+    --red-4: #ED0000;
+    --red-5: #FFB3B3;
+    --red-6: #FDD0D0;
+    --red-7: #FFEAEA;
+    --orange-1: #803300;
+    --orange-2: #994000;
+    --orange-3: #B34A00;
+    --orange-4: #E66000;
+    --orange-5: #FFC299;
+    --orange-6: #FFDCC2;
+    --orange-7: #FFF0E6;
+    --green-1: #003D00;
+    --green-2: #004B00;
+    --green-3: #005900;
+    --green-4: #007500;
+    --green-5: #99D499;
+    --green-6: #C2E2C2;
+    --green-7: #E6F3E6;
+    --blue-1: #001A4D;
+    --blue-2: #00245E;
+    --blue-3: #002E6F;
+    --blue-4: #003D91;
+    --blue-5: #99C2FF;
+    --blue-6: #C2DCFF;
+    --blue-7: #E6F0FF;
+  }
+}
