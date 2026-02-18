@@ -1,0 +1,58 @@
+{
+  "name": "@aid-on/design-system",
+  "version": "0.1.0",
+  "description": "Aid-On Design System - Design tokens and utilities for Qwik applications",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./tokens": {
+      "import": "./dist/tokens/index.js",
+      "types": "./dist/tokens/index.d.ts"
+    },
+    "./colors": {
+      "import": "./dist/tokens/colors.js",
+      "types": "./dist/tokens/colors.d.ts"
+    },
+    "./utils": {
+      "import": "./dist/utils/index.js",
+      "types": "./dist/utils/index.d.ts"
+    },
+    "./css": "./dist/styles/tokens.css"
+  },
+  "scripts": {
+    "build": "tsc && npm run build:css",
+    "build:css": "node scripts/generate-css.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "@builder.io/qwik": "^1.11.0"
+  },
+  "devDependencies": {
+    "@builder.io/qwik": "^1.11.0",
+    "@types/node": "^20.10.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "keywords": [
+    "design-system",
+    "design-tokens",
+    "qwik",
+    "colors",
+    "theming",
+    "aid-on"
+  ],
+  "author": "Aid-On",
+  "license": "MIT"
+}
