@@ -1,0 +1,81 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', sans-serif;
+}
+
+.aid-swatch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 16px 0 28px;
+}
+
+.aid-swatch {
+  border: 1px solid #e5e5e8;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  font-size: 12px;
+}
+
+.aid-swatch__chip {
+  height: 72px;
+  width: 100%;
+}
+
+.aid-swatch__meta {
+  padding: 8px 10px;
+}
+
+.aid-swatch__name {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+  color: #222;
+  word-break: break-all;
+}
+
+.aid-swatch__value {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+  color: #666;
+  margin-top: 2px;
+}
+
+.aid-swatch__desc {
+  font-size: 11px;
+  color: #888;
+  margin-top: 2px;
+}
+
+.aid-section-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 24px 0 4px;
+  color: #222;
+}
+
+.aid-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin: 12px 0 24px;
+}
+
+.aid-table th,
+.aid-table td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.aid-table th {
+  background: #fafafa;
+  font-weight: 600;
+}
+
+.aid-table code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12px;
+  background: #f4f4f5;
+  padding: 1px 6px;
+  border-radius: 4px;
+}

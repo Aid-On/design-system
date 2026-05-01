@@ -1,0 +1,33 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Introduction" />
+
+# @aid-on/design-system
+
+Aid-On プラットフォームのデザイントークンと、Qwik 用ユーティリティを提供するライブラリです。
+
+このサイトは **トークンの可視化カタログ** であり、コンポーネントのドキュメントではありません。
+Storybook 上で以下のセクションを参照できます。
+
+- **Tokens / Colors** — Light / Dark テーマのカラーパレット（Surface / Content / Accent / Semantic / Status）
+- **Tokens / CSS Variables** — `tokens.css` から書き出された CSS カスタムプロパティ一覧
+
+> Spacing / Typography トークンは未実装。`src/tokens/index.ts` のコメントアウト箇所が将来の追加箇所です。
+
+## インストール
+
+```bash
+npm install @aid-on/design-system
+```
+
+## 使い方
+
+```ts
+import { colors, getAllColorTokens } from '@aid-on/design-system/tokens';
+import '@aid-on/design-system/css';
+```
+
+## リンク
+
+- npm: [`@aid-on/design-system`](https://www.npmjs.com/package/@aid-on/design-system)
+- GitHub: [Aid-On/design-system](https://github.com/Aid-On/design-system)
