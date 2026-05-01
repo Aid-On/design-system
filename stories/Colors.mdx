@@ -1,0 +1,26 @@
+import { Meta } from '@storybook/blocks';
+import { colors } from '../src/tokens/colors';
+import { ColorPalette } from './components/ColorPalette';
+
+<Meta title="Tokens/Colors" />
+
+# Colors
+
+Aid-On Design System のカラートークンです。Light / Dark の各テーマ向けに定義されており、CSS カスタムプロパティとしても出力されます。
+
+## Light Theme
+
+<ColorPalette title="Surface" tokens={colors.surface.light} />
+<ColorPalette title="Content" tokens={colors.content.light} />
+<ColorPalette title="Accent" tokens={colors.accent.light} />
+<ColorPalette title="Semantic (White scale)" tokens={colors.semantic.light} />
+<ColorPalette title="Caution Red" tokens={colors.cautionRed.light} />
+<ColorPalette title="Alert Orange" tokens={colors.alertOrange.light} />
+<ColorPalette title="Success Green" tokens={colors.successGreen.light} />
+<ColorPalette title="Link Blue" tokens={colors.linkBlue.light} />
+
+## Dark Theme
+
+<ColorPalette title="Surface (dark)" tokens={colors.surface.dark} />
+<ColorPalette title="Content (dark)" tokens={colors.content.dark} />
+<ColorPalette title="Accent (dark)" tokens={colors.accent.dark} />
