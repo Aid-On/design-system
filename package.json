@@ -43,20 +43,20 @@
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.11.0",
-    "@storybook/addon-essentials": "^8.4.7",
-    "@storybook/blocks": "^8.4.7",
-    "@storybook/react": "^8.4.7",
-    "@storybook/react-vite": "^8.4.7",
+    "@storybook/addon-essentials": "^8.6.19",
+    "@storybook/blocks": "^8.6.19",
+    "@storybook/react": "^8.6.19",
+    "@storybook/react-vite": "^8.6.19",
     "@types/node": "^20.10.5",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "storybook": "^8.4.7",
+    "storybook": "^8.6.19",
     "typescript": "^5.7.2",
     "vite": "^6.4.3",
-    "vitest": "^4.1.11"
+    "vitest": "^4.1.12"
   },
   "keywords": [
     "design-system",
